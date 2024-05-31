@@ -461,3 +461,6 @@ if __name__ == "__main__":
     elif choice == '3':
         result = matrix1.multiply(matrix2)
         output_results(output_file, result.data, result.rows, result.cols)
+    else:
+        print("Not a valid operation.")
+        
